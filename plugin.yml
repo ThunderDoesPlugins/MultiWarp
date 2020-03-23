@@ -1,0 +1,42 @@
+name: MultiWarp
+version: 0.0.1-alpha-1+internal
+api: ["3.0.0"]
+author: Thunder33345
+main: Thunder33345\MultiWarp\MultiWarp
+permissions:
+  multiwarp:
+    default: false
+    children:
+      multiwarp:
+        children:
+          multiwarp.system:
+            description: "MultiWarp System Command"
+            default: op
+          multiwarp.command:
+            description: "MultiWarp Command"
+            default: op
+            children:
+              multiwarp.command.use:
+                description: "Use a MultiWarp"
+                default: op
+              multiwarp.command.add:
+                description: "Add a MultiWarp"
+                default: op
+              multiwarp.command.create:
+                description: "Create a new MultiWarp group"
+                default: op
+              multiwarp.command.removenear:
+                description: "Remove a MultiWarp"
+                default: op
+              multiwarp.command.removeall:
+                description: "Remove All MultiWarp in a group"
+                default: op
+              multiwarp.command.delete:
+                description: "Delete a MultiWarp group"
+                default: op
+              multiwarp.command.list:
+                description: "List MultiWarp Groups"
+                default: op
+              multiwarp.command.help:
+                description: "MultiWarp Help"
+                default: op
