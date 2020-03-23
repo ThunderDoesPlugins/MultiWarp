@@ -1,5 +1,5 @@
 # MultiWarp
-[<img src="https://img.shields.io/badge/Poggit-view-brightgreen.svg" width="110" height="30"/>](https://poggit.pmmp.io/ci/ThunderDoesPlugins/MultiWarp)
+[<img src="https://img.shields.io/badge/Poggit-view-brightgreen.svg" width="110" height="30"/>](https://poggit.pmmp.io/ci/ThunderDoesPlugins/MultiWarp/MultiWarp)
 [<img src="https://img.shields.io/badge/Discord-join-697EC4.svg" width="110" height="30"/>](https://discord.gg/uBghvNp)
 
 A Warp With Multiple Locations!

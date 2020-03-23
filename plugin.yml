@@ -1,5 +1,5 @@
 name: MultiWarp
-version: 0.0.1-alpha-1+internal
+version: 0.0.1-alpha-1+public
 api: ["3.0.0"]
 author: Thunder33345
 main: Thunder33345\MultiWarp\MultiWarp
