@@ -48,11 +48,6 @@ class MultiWarp extends PluginBase implements Listener
 		$multiWarpUseCmd = new MultiWarpUseCommand($this, 'multiwarpuse', "MultiWarp System Use Command");
 		$multiWarpUseCmd->setPermission('multiwarp.system');
 		$this->getServer()->getCommandMap()->register($this->getName(), $multiWarpUseCmd);
-
-		#probs gonna delete
-		#$multiWarpAdvanceCmd = new MultiWarpAdvance($this, 'multiwarpadvance', "MultiWarp Advance Main Command", ['mtpa', 'mwpa']);
-		#$multiWarpAdvanceCmd->setPermission('multiwarp.advance');
-		#$this->getServer()->getCommandMap()->register($this->getName(), $multiWarpAdvanceCmd);
 	}
 
 	public function onDisable()
